@@ -9,7 +9,7 @@ fetch(url)
     return response.json();
   })
   .then(data => {
-    console.log('User info: ', data);
+    console.log('User info: ', data.bio);
   })
   .catch(error => {
     console.error('error:', error);
