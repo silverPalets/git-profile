@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+.get-profile .user-input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  padding: 0;
+}
+
+.get-profile .user-input::placeholder {
+  color: rgb(55, 55, 55);
+  padding-left: 15px;
+}
+
+.get-profile .submit-button {
+  border: none;
+  padding: 0;
+  height: 40px;
+  width: 60px;
+}
+
+body .information {
+  color: rgb(198, 198, 198);
+  font-size: 20px;
+  margin-top: 50px;
+}
